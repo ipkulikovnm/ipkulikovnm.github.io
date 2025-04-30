@@ -2,8 +2,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/ipkulikov.github.io/ipkulikov.github.io",
-  assetPrefix: "/ipkulikov.github.io/ipkulikov.github.io",
+  basePath: "/",
+  assetPrefix: "/",
   images: {
     unoptimized: true, // если используешь <Image />
   },
