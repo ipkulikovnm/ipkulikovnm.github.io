@@ -1,14 +1,12 @@
 /** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/ipkulikovnm.github.io",
-  assetPrefix: "/ipkulikovnm.github.io/",
-
+  basePath: "/ipkulikov.github.io/ipkulikov.github.io",
+  assetPrefix: "/ipkulikov.github.io/ipkulikov.github.io",
   images: {
-    unoptimized: true,
+    unoptimized: true, // если используешь <Image />
   },
-  assetPrefix: "",
-  basePath: "",
 };
 
 module.exports = nextConfig;
